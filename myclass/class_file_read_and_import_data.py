@@ -67,7 +67,7 @@ pure_list = map(separateFun,raw_list)
 
 ##########################################   Part 3 Import data of books into databse ##################################
 
-conn = MySQLdb.connect(host='localhost',user='root',passwd='95120',charset='utf8',port=3306)
+conn = MySQLdb.connect(host='localhost',user='root',passwd='',charset='utf8',port=3306)
 cursor = conn.cursor()
 
 try:
